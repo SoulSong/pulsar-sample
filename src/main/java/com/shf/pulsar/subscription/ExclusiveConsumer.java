@@ -9,8 +9,6 @@ import org.apache.pulsar.client.api.Schema;
 import org.apache.pulsar.client.api.SubscriptionInitialPosition;
 import org.apache.pulsar.client.api.SubscriptionType;
 
-import java.util.concurrent.TimeUnit;
-
 /**
  * description :
  *
