@@ -1,7 +1,5 @@
 package com.shf.pulsar.schema.version;
 
-import com.fasterxml.jackson.core.JsonProcessingException;
-import com.fasterxml.jackson.databind.ObjectMapper;
 import com.shf.pulsar.PulsarClientFactory;
 import com.shf.pulsar.resource.SchemaHelper;
 import com.shf.pulsar.resource.TopicHelper;
@@ -24,6 +22,8 @@ import org.apache.pulsar.client.impl.schema.SchemaUtils;
 import org.apache.pulsar.common.policies.data.SchemaCompatibilityStrategy;
 import org.apache.pulsar.common.schema.SchemaInfo;
 import org.apache.pulsar.common.schema.SchemaType;
+import org.apache.pulsar.shade.com.fasterxml.jackson.core.JsonProcessingException;
+import org.apache.pulsar.shade.com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.Assert;
 import org.junit.Test;
 
